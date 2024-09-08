@@ -1,0 +1,112 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.app-container-home{
+ min-height: 100vh;
+background-image: url('https://res.cloudinary.com/dwwunc51b/image/upload/v1725778338/1325574_cchymq.png');
+background-size: cover;
+padding: 0px 20px 0px 20px;
+margin-top: 0px;
+ 
+}
+  h1 {
+    text-align: center;
+    margin: 0px;
+    color: #f7f8f8;
+  }
+
+  .name{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .table-row :hover{
+    background-color: white;
+  }
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  .table-container {
+    width: 100%;
+    max-height: 500px; 
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    overflow: hidden; 
+   
+  }
+
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .table-container th, .table-container td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap; 
+  }
+  
+  .table-container tbody {
+    max-height: 300px; 
+    display: block;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    width: 100%;
+  }
+  
+
+  .table-container tbody::-webkit-scrollbar {
+    width: 2px; 
+  }
+  
+  .table-container tbody::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  .table-container tbody::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px; 
+  }
+  
+  .table-container tbody::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+  .table-container thead, .table-container tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed; 
+  }
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #333;
+}
